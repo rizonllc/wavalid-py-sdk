@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wavalid-py-sdk"
+version = "0.1.0"
+description = "Python SDK for the wavalid WhatsApp number validation API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "wavalid" }]
+
+[project.urls]
+Homepage = "https://wavalid.com"
+Repository = "https://github.com/rizonllc/wavalid-py-sdk"
+Issues = "https://github.com/rizonllc/wavalid-py-sdk/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wavalid"]
