@@ -12,7 +12,7 @@ requires-python = ">=3.9"
 authors = [{ name = "wavalid" }]
 
 [project.urls]
-Homepage = "https://wavalid.com"
+Homepage = "https://wavalid.com?utm_source=pypi&utm_medium=referral&utm_campaign=py-sdk"
 Repository = "https://github.com/rizonllc/wavalid-py-sdk"
 Issues = "https://github.com/rizonllc/wavalid-py-sdk/issues"
 
